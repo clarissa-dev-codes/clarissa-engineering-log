@@ -29,6 +29,8 @@ export function Hero() {
             <span className="text-brand">{profile.role}</span>
           </p>
 
+          <p className="mt-2 font-mono text-sm text-brand">Now on GitHub</p>
+
           <p className="mt-6 max-w-xl leading-relaxed text-pretty text-muted-foreground">{profile.bio}</p>
 
           <ul className="mt-8 flex flex-wrap gap-3">
