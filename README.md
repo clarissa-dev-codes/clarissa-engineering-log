@@ -6,8 +6,7 @@ This application was developed and deployed in collaboration with the Handshake 
 
 ## Live Demo
 
-- **Production URL:** [https://vercel.app](https://vercel.app)
-- **LinkedIn Profile:** [https://linkedin.com](https://linkedin.com)
+- **Production URL:** [Clarissa Engineering Log](https://clarissa-engineering-log.vercel.app/)
 
 ## Core Architecture and Features
 
