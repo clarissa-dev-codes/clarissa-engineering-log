@@ -15,8 +15,9 @@ const interests = [
     title: 'Certembe Farms',
     description:
       'Managing a growing goat herd — scheduling, record-keeping, and logistics that inspired my Livestock Management Database Engine.',
-    image: '/images/goat-herd.png',
-    alt: 'A small herd of goats grazing in a green pasture beside a wooden fence',
+    image: '/images/certembe-goats.jpg',
+    alt: 'A row of black, white, and tan goats lined up along a mesh fence in a grassy pasture at sunset',
+    imagePosition: 'object-[center_40%]',
   },
 ]
 
