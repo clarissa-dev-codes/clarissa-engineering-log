@@ -7,8 +7,9 @@ const interests = [
     title: 'Equestrian Western Cutting',
     description:
       'Competing in cutting — reading the herd, holding position, and trusting split-second decisions. Turns out it trains the same focus as debugging.',
-    image: '/images/western-cutting.png',
-    alt: 'A rider on a quarter horse working a calf in a dusty arena at golden hour',
+    image: '/images/krazykat-and-me.jpg',
+    alt: 'Clarissa in a white cowboy hat riding her chestnut horse KrazyKat in front of a weathered wooden barn',
+    imagePosition: 'object-[center_20%]',
   },
   {
     title: 'Certembe Farms',
@@ -32,7 +33,13 @@ export function BeyondTheCode() {
           {interests.map((item) => (
             <article key={item.title} className="overflow-hidden rounded-xl border border-border bg-card">
               <div className="relative aspect-[16/9]">
-                <Image src={item.image} alt={item.alt} fill sizes="(min-width: 640px) 50vw, 100vw" className="object-cover" />
+                <Image
+                  src={item.image}
+                  alt={item.alt}
+                  fill
+                  sizes="(min-width: 640px) 50vw, 100vw"
+                  className={`object-cover ${'imagePosition' in item ? item.imagePosition : ''}`}
+                />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold">{item.title}</h3>
