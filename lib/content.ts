@@ -6,8 +6,8 @@ export const profile = {
   bio: 'A motivated Junior Software Engineer focused on building robust backend solutions, optimizing system performance, and automation. Experienced in engineering clean, maintainable code across Python, C++, and automation pipelines.',
   links: {
     github: 'https://github.com/clarissa-dev-codes',
-    linkedin: 'https://www.linkedin.com/in/clarissa-edwards',
-    handshake: 'https://app.joinhandshake.com/',
+    linkedin: 'https://www.linkedin.com/in/clarissa-edwards-107376396/',
+    handshake: 'https://app.joinhandshake.com/profiles/hx2qmm',
   },
 }
 
@@ -33,8 +33,11 @@ export const projects: Project[] = [
       'Published and live on the VS Code Marketplace',
     ],
     tech: ['TypeScript', 'VS Code API', 'HTML/CSS'],
-    repo: gh('DevDucky'),
-    live: { label: 'Marketplace', href: 'https://marketplace.visualstudio.com/search?term=DevDucky&target=VSCode' },
+    repo: gh('Time-Tracker-Status-Bar-Extension/releases/tag/vscodeextension'),
+    live: {
+      label: 'Marketplace',
+      href: 'https://marketplace.visualstudio.com/items?itemName=clarissa-dev-codes.ducky-time-tracker-and-focus-companion&ssr=false',
+    },
     featured: true,
   },
   {
@@ -43,7 +46,8 @@ export const projects: Project[] = [
       'Built an automated workflow cron job to fetch daily high-resolution space payloads and deploy fresh builds entirely on autopilot.',
     highlights: ['Scheduled GitHub Actions cron on Linux cloud runners', 'Zero-touch deploys to GitHub Pages'],
     tech: ['Python', 'GitHub Actions', 'Linux Cloud Runners', 'GitHub Pages', 'HTML5/CSS3'],
-    repo: gh('nasa-space-data-engine'),
+    repo: gh('Astronomy-Picture-of-the-Day-API'),
+    live: { label: 'Live Site', href: 'https://clarissa-dev-codes.github.io/Astronomy-Picture-of-the-Day-API/' },
     featured: true,
   },
   {
@@ -52,28 +56,29 @@ export const projects: Project[] = [
       'Engineered a file-based CRUD database system. Configured cross-platform engineering overrides directly into the Makefile to resolve Windows/Linux text file formatting conflicts.',
     highlights: ['File-backed persistence with full CRUD', 'Makefile overrides normalize CRLF/LF line endings'],
     tech: ['C++', 'Makefile', 'Linux'],
-    repo: gh('livestock-management-db'),
+    repo: gh('LivestockTracker'),
   },
   {
     title: 'Coding Project Manager CLI',
     summary: 'Lightweight, terminal-based CLI utility to track and organize multiple active repositories.',
     highlights: ['Fast, dependency-free terminal workflow'],
     tech: ['C++', 'CLI'],
-    repo: gh('coding-project-manager-cli'),
+    repo: gh('Coding-Project-Manager'),
   },
   {
     title: 'PDF to EPub Converter',
     summary: 'Converts free programming books into EPub so they format cleanly on a Kindle reading screen.',
     highlights: ['Reflowable output tuned for e-ink displays'],
     tech: ['Python', 'EPub'],
-    repo: gh('pdf-to-epub-converter'),
+    repo: gh('PDF-to-EPub-Converter'),
   },
   {
     title: 'GitHub User Finder',
     summary: 'Search any GitHub profile and browse stats and repositories, with full dark mode integration.',
     highlights: ['Live data from the GitHub REST API'],
     tech: ['JavaScript', 'GitHub REST API', 'Dark Mode'],
-    repo: gh('github-user-finder'),
+    repo: gh('GitHub-Profile-Finder'),
+    live: { label: 'Live Site', href: 'https://clarissa-dev-codes.github.io/GitHub-Profile-Finder/' },
   },
 ]
 
